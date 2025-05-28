@@ -31,3 +31,4 @@ Here is an index of the database interview questions:
 *   [Q27.md: How Does **Database Indexing** Work?](Q27.md)
 *   [Q28.md: What is **Optimistic Locking** and **Pessimistic Locking**?](Q28.md)
 *   [Q29.md: Disadvantages of Using a **Hash Index**](Q29.md)
+*   [Q30.md: What is SQL Injection](Q30.md)
