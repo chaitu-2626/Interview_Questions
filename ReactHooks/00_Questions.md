@@ -1,0 +1,43 @@
+# Interview Questions Index
+
+- [Q1.md](Q1.md) - Explains React Hooks, their purpose, and common hooks like `useState`, `useEffect`, and `useContext`.
+- [Q2.md](Q2.md) - Details the `useState` hook, its syntax, how state updates work, and its key use cases.
+- [Q3.md](Q3.md) - Describes how to use `useEffect` with an empty dependency array to call a loading function only once on component mount.
+- [Q4.md](Q4.md) - Explains how to access DOM elements in React using the `useRef` hook and why direct DOM manipulation should be avoided.
+- [Q5.md](Q5.md) - Highlights the advantages of using React Hooks, such as simpler code, reusable logic with custom hooks, and better separation of concerns.
+- [Q6.md](Q6.md) - Covers advanced production use cases of `useRef`, including storing mutable values, managing timers, avoiding closure traps, and integrating with third-party libraries.
+- [Q7.md](Q7.md) - Defines batching in React, its advantages for performance, and how React 18 introduced automatic batching everywhere.
+- [Q8.md](Q8.md) - Discusses common use cases for `useMemo`, focusing on memoizing expensive computations, derived data, and preventing unnecessary re-renders.
+- [Q9.md](Q9.md) - Explains which class component lifecycle methods (`componentDidMount`, `componentDidUpdate`, `componentWillUnmount`) are replaced by `useEffect`.
+- [Q10.md](Q10.md) - Compares React Context API and `useContext` hook, explaining their roles in creating and consuming global state.
+- [Q11.md](Q11.md) - Outlines scenarios where the `useContext` hook is used, primarily for avoiding prop drilling and accessing global state like theme or authentication.
+- [Q12.md](Q12.md) - Addresses potential problems and limitations of `useContext`, such as re-rendering all consumers and debugging challenges.
+- [Q13.md](Q13.md) - Compares `useState` and `useReducer` hooks, detailing when to use each based on state complexity.
+- [Q14.md](Q14.md) - Explains that React Hooks cover almost all class component use cases, with error boundaries being a notable exception.
+- [Q15.md](Q15.md) - Provides an example of an Error Boundary class component and explains its purpose.
+- [Q16.md](Q16.md) - Differentiates between `React.memo()` and `useMemo()`, explaining their respective roles in optimizing component rendering and computations.
+- [Q17.md](Q17.md) - Defines batching in React and its advantages for performance, UI smoothness, and consistent state.
+- [Q18.md](Q18.md) - Clarifies that `useState` updates are asynchronous and do not update state immediately, explaining why and how to get the updated value.
+- [Q19.md](Q19.md) - Compares custom hooks with normal functions, highlighting the naming convention, ability to call hooks, and purpose of custom hooks for reusable React logic.
+- [Q20.md](Q20.md) - Explains why custom hooks must start with `use` for React to identify them and enforce the Rules of Hooks.
+- [Q21.md](Q21.md) - Confirms that two components using the same custom hook do not share state, as each gets its own isolated state.
+- [Q22.md](Q22.md) - Describes `useLayoutEffect`, its timing (synchronous, before paint), and its use cases for reading DOM measurements to prevent flickering.
+- [Q23.md](Q23.md) - Discusses common problems with `useCallback`, such as unnecessary complexity, memory overhead, and incorrect dependency arrays.
+- [Q24.md](Q24.md) - Explains how `useRef` is used to store non-state instance variables that persist across renders without causing re-renders.
+- [Q25.md](Q25.md) - Provides a summary table comparing `useCallback`, `useMemo`, and `useEffect` for their respective purposes and triggers.
+- [Q26.md](Q26.md) - Demonstrates the correct way to update nested objects and arrays in React state using immutability.
+- [Q27.md](Q27.md) - Explains how custom hooks replace traditional patterns like Higher-Order Components (HOCs) and Render Props for logic reuse.
+- [Q28.md](Q28.md) - Shows methods to force a re-render in a functional component using `useState` or `useReducer` with a dummy value.
+- [Q29.md](Q29.md) - Clarifies that a custom React Hook should not return JSX, as its purpose is to encapsulate logic, not UI.
+- [Q30.md](Q30.md) - Explains why passing a function to `useState` for initialization is beneficial for expensive computations, as it runs only once.
+- [Q31.md](Q31.md) - Describes `useImperativeHandle` for customizing the instance value exposed to parent components via `ref`, and confirms its continued relevance in React 19.
+- [Q32.md](Q32.md) - Explains `useInsertionEffect` for synchronously injecting styles into the DOM before mutations, primarily for CSS-in-JS libraries to avoid FOUC.
+- [Q33.md](Q33.md) - Introduces `useTransition` for managing UI updates with different priorities, allowing React to delay less urgent renders to keep the UI responsive.
+- [Q34.md](Q34.md) - Describes `useDeferredValue` for deferring value updates until after more urgent updates, improving UI responsiveness during rapid changes.
+- [Q35.md](Q35.md) - (Duplicate of Q34.md, content is identical)
+- [Q36.md](Q36.md) - Explains `useId` for generating unique, consistent IDs for accessibility and form elements, especially in SSR environments.
+- [Q37.md](Q37.md) - Details `useSyncExternalStore` for safely subscribing to external data sources, preventing tearing in Concurrent Rendering and SSR.
+- [Q38.md](Q38.md) - Introduces the `use()` hook in React 19 for suspending components while waiting for a promise to resolve, simplifying async data fetching.
+- [Q39.md](Q39.md) - Explains `useFormStatus` for tracking the status of a `<form>` submission, especially with React Server Actions.
+- [Q40.md](Q40.md) - Describes `useOptimistic` for building optimistic UI updates, where the UI reflects changes before server confirmation.
+- [Q41.md](Q41.md) - Explains `useActionState` for tracking the current state of a server action (pending, error, data) in client components.
