@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 300px;
+    display: grid;
+    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(3, 60px);
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Apply styles for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+    .grid {
+        width: 200px;
+        display: grid;
+        grid-template-rows: repeat(3, 40px);
+        grid-template-columns: repeat(3, 40px);
+    }
+    
+}
