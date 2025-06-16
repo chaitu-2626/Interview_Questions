@@ -1,3 +1,5 @@
+
+
 const getTotal = (a, a, a) => {
     return a + a + a;
 };
